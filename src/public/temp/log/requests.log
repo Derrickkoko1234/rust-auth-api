@@ -1,0 +1,195 @@
+2024-02-26T12:05:28.987478427+01:00 - booting up...............
+2024-02-26T13:04:09.821603041+01:00 - booting up...............
+2024-02-26T13:04:23.025423227+01:00 - booting up...............
+2024-02-26T13:10:03.559533995+01:00 - booting up...............
+2024-02-26T13:22:04.815091631+01:00 - starting 4 workers
+2024-02-26T13:22:04.817194622+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T13:22:05.180633682+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T14:00:00+01:00
+2024-02-26T13:22:05.180804863+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T13:22:05.180876311+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T13:22:05.180942451+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T13:22:05.181007403+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T13:36:03.768175158+01:00 - 127.0.0.1 "GET /v1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000579
+2024-02-26T13:36:04.490956668+01:00 - 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/v1" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000272
+2024-02-26T13:37:06.736178504+01:00 - 127.0.0.1 "GET /v1/faq HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000475
+2024-02-26T13:37:13.141102006+01:00 - 127.0.0.1 "GET /v1/faq/get-faq HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000711
+2024-02-26T14:00:00.001113088+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-26T14:00:00+01:00 next_dt=2024-02-26T15:00:00+01:00
+2024-02-26T14:40:21.605678809+01:00 - 127.0.0.1 "GET /v1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000621
+2024-02-26T14:46:47.395980392+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000437
+2024-02-26T14:47:20.122215192+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000492
+2024-02-26T14:48:00.493462389+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000458
+2024-02-26T14:48:21.142318265+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T14:48:21.142520805+01:00 - accept thread stopped
+2024-02-26T14:48:21.142719853+01:00 - shutting down idle worker
+2024-02-26T14:48:21.143935231+01:00 - shutting down idle worker
+2024-02-26T14:48:21.145488990+01:00 - shutting down idle worker
+2024-02-26T14:48:21.146443790+01:00 - shutting down idle worker
+2024-02-26T14:55:11.391563407+01:00 - booting up...............
+2024-02-26T14:55:12.201946918+01:00 - expected message id: 56678 got: 7348, dropped
+2024-02-26T15:00:49.734439032+01:00 - booting up...............
+2024-02-26T15:12:52.275449507+01:00 - starting 4 workers
+2024-02-26T15:12:52.277634771+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T15:12:52.579029064+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T16:00:00+01:00
+2024-02-26T15:12:52.579211559+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T15:12:52.579285661+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T15:12:52.579354943+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T15:12:52.579424086+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T15:13:47.002215975+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000696
+2024-02-26T15:14:10.414166023+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000533
+2024-02-26T15:14:20.538723448+01:00 - 127.0.0.1 "POST /v1/auth/sign-in HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000542
+2024-02-26T15:14:22.249880324+01:00 - 127.0.0.1 "POST /v1/auth/sign-in HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000435
+2024-02-26T15:14:33.372873753+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T15:14:33.373235321+01:00 - shutting down idle worker
+2024-02-26T15:14:33.373845874+01:00 - shutting down idle worker
+2024-02-26T15:14:33.374693119+01:00 - accept thread stopped
+2024-02-26T15:14:33.374988128+01:00 - shutting down idle worker
+2024-02-26T15:14:33.376153919+01:00 - shutting down idle worker
+2024-02-26T17:06:19.637154219+01:00 - booting up...............
+2024-02-26T17:06:29.438647065+01:00 - starting 4 workers
+2024-02-26T17:06:29.439935637+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T17:06:29.617741366+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T18:00:00+01:00
+2024-02-26T17:06:29.617915201+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T17:06:29.617985671+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T17:06:29.618053207+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T17:06:29.618118998+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T18:00:00.002297803+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-26T18:00:00+01:00 next_dt=2024-02-26T19:00:00+01:00
+2024-02-26T18:22:07.181992007+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000563
+2024-02-26T20:22:17.263461326+01:00 - booting up...............
+2024-02-26T20:22:27.358033999+01:00 - starting 4 workers
+2024-02-26T20:22:27.363847099+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T20:22:27.641417829+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T21:00:00+01:00
+2024-02-26T20:22:27.641620438+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T20:22:27.644286909+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T20:22:27.644375468+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T20:22:27.644441119+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T20:29:17.032234310+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000749
+2024-02-26T20:35:47.923937426+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.000577
+2024-02-26T20:41:48.448822074+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T20:41:48.449079299+01:00 - shutting down idle worker
+2024-02-26T20:41:48.449170791+01:00 - shutting down idle worker
+2024-02-26T20:41:48.450150874+01:00 - shutting down idle worker
+2024-02-26T20:41:48.451589325+01:00 - accept thread stopped
+2024-02-26T20:41:48.452383072+01:00 - shutting down idle worker
+2024-02-26T20:46:21.677926509+01:00 - booting up...............
+2024-02-26T20:46:42.433070493+01:00 - starting 4 workers
+2024-02-26T20:46:42.434381065+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T20:46:42.598345297+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T21:00:00+01:00
+2024-02-26T20:46:42.598512707+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T20:46:42.598584504+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T20:46:42.598652040+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T20:46:42.598717551+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T20:47:08.914360322+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 200 90 "-" "PostmanRuntime/7.36.0" 2.267878
+2024-02-26T20:48:52.973565619+01:00 - 127.0.0.1 "GET /v1/faq/get-faq HTTP/1.1" 404 32 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.001159
+2024-02-26T20:48:54.526709438+01:00 - 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/v1/faq/get-faq" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000341
+2024-02-26T20:50:03.147186824+01:00 - 127.0.0.1 "GET /v1/faq/1 HTTP/1.1" 200 103 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.581762
+2024-02-26T20:50:43.706239068+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T20:50:43.706580312+01:00 - accept thread stopped
+2024-02-26T20:50:43.706787042+01:00 - shutting down idle worker
+2024-02-26T20:50:43.707311900+01:00 - shutting down idle worker
+2024-02-26T20:50:43.708042090+01:00 - shutting down idle worker
+2024-02-26T20:50:43.709103608+01:00 - shutting down idle worker
+2024-02-26T20:57:57.554245253+01:00 - booting up...............
+2024-02-26T20:58:16.017801159+01:00 - starting 4 workers
+2024-02-26T20:58:16.018165521+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T20:58:16.213474246+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T21:00:00+01:00
+2024-02-26T20:58:16.213683979+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T20:58:16.213892944+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T20:58:16.213992329+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T20:58:16.214063008+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T20:58:28.825701965+01:00 - 127.0.0.1 "GET /v1/faq/1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000985
+2024-02-26T20:58:36.628144731+01:00 - 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/v1/faq/1" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000448
+2024-02-26T20:59:33.527615781+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 401 55 "-" "PostmanRuntime/7.36.0" 0.001783
+2024-02-26T21:00:00.001162935+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-26T21:00:00+01:00 next_dt=2024-02-26T22:00:00+01:00
+2024-02-26T21:00:08.975843713+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T21:00:08.976054774+01:00 - accept thread stopped
+2024-02-26T21:00:08.976233428+01:00 - shutting down idle worker
+2024-02-26T21:00:08.976435828+01:00 - shutting down idle worker
+2024-02-26T21:00:08.978338444+01:00 - shutting down idle worker
+2024-02-26T21:00:08.978586241+01:00 - shutting down idle worker
+2024-02-26T21:02:42.113815052+01:00 - booting up...............
+2024-02-26T21:03:02.399361283+01:00 - starting 4 workers
+2024-02-26T21:03:02.400223474+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T21:03:03.026887793+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T22:00:00+01:00
+2024-02-26T21:03:03.027085514+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T21:03:03.027171349+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T21:03:03.027242238+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T21:03:03.027308168+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T21:03:05.746817464+01:00 - 127.0.0.1 "GET /v1/faq/1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000666
+2024-02-26T21:03:06.547789023+01:00 - 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/v1/faq/1" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000286
+2024-02-26T21:03:13.310204040+01:00 - 127.0.0.1 "GET /v1/faq/1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000647
+2024-02-26T21:07:59.339688142+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 500 119 "-" "PostmanRuntime/7.36.0" 5.836698
+2024-02-26T21:09:15.989616933+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 200 90 "-" "PostmanRuntime/7.36.0" 4.918294
+2024-02-26T21:14:01.678175315+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-26T21:14:01.678548757+01:00 - accept thread stopped
+2024-02-26T21:14:01.678967525+01:00 - shutting down idle worker
+2024-02-26T21:14:01.679985602+01:00 - shutting down idle worker
+2024-02-26T21:14:01.680137925+01:00 - shutting down idle worker
+2024-02-26T21:14:01.680699380+01:00 - shutting down idle worker
+2024-02-26T21:25:40.288543613+01:00 - booting up...............
+2024-02-26T21:26:00.464757495+01:00 - starting 4 workers
+2024-02-26T21:26:00.464942854+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-26T21:26:00.620123217+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-26T22:00:00+01:00
+2024-02-26T21:26:00.620288671+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-27T00:00:00+01:00
+2024-02-26T21:26:00.620362493+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-26T21:26:00.620431566+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-26T21:26:00.620501478+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-26T21:28:44.603378410+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 500 59 "-" "PostmanRuntime/7.36.0" 56.387333
+2024-02-26T21:38:22.964592383+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 200 90 "-" "PostmanRuntime/7.36.0" 4.112753
+2024-02-27T06:35:38.749395504+01:00 - SIGTERM received; starting graceful shutdown
+2024-02-27T06:35:38.749849053+01:00 - shutting down idle worker
+2024-02-27T06:35:38.749963383+01:00 - shutting down idle worker
+2024-02-27T06:35:38.750996266+01:00 - accept thread stopped
+2024-02-27T06:35:38.751404488+01:00 - shutting down idle worker
+2024-02-27T06:35:38.752879746+01:00 - shutting down idle worker
+2024-02-27T06:44:05.988151875+01:00 - booting up...............
+2024-02-27T06:44:14.188205719+01:00 - starting 4 workers
+2024-02-27T06:44:14.188841275+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-27T06:44:14.365160082+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-27T07:00:00+01:00
+2024-02-27T06:44:14.365563486+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-28T00:00:00+01:00
+2024-02-27T06:44:14.365646178+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-27T06:44:14.365714832+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-27T06:44:14.365784603+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-27T07:30:34.282390749+01:00 - booting up...............
+2024-02-27T07:30:44.979469010+01:00 - starting 4 workers
+2024-02-27T07:30:44.979662261+01:00 - Actix runtime found; starting in Actix runtime
+2024-02-27T07:30:45.155484078+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-02-27T08:00:00+01:00
+2024-02-27T07:30:45.155653863+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-02-28T00:00:00+01:00
+2024-02-27T07:30:45.155739558+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-02-29T00:00:00+01:00
+2024-02-27T07:30:45.155832237+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-03-01T00:00:00+01:00
+2024-02-27T07:30:45.155899145+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-02-27T08:00:00.283597834+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-27T08:00:00+01:00 next_dt=2024-02-27T09:00:00+01:00
+2024-02-27T09:00:03.676566434+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-27T09:00:00+01:00 next_dt=2024-02-27T10:00:00+01:00
+2024-02-27T09:12:38.592075745+01:00 - 127.0.0.1 "GET /v1/faq/1 HTTP/1.1" 401 55 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.427809
+2024-02-27T09:12:41.098558838+01:00 - 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/v1/faq/1" "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" 0.000382
+2024-02-27T10:00:04.149367939+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-27T10:00:00+01:00 next_dt=2024-02-27T11:00:00+01:00
+2024-02-27T11:33:06.344966990+01:00 - Ran job (Async job is running in background) name= this_dt=2024-02-27T11:00:00+01:00 next_dt=2024-02-27T12:00:00+01:00
+2024-03-06T11:06:04.089058420+01:00 - booting up...............
+2024-03-06T11:06:05.013242726+01:00 - expected message id: 26109 got: 52394, dropped
+2024-03-06T11:06:16.735932936+01:00 - starting 4 workers
+2024-03-06T11:06:16.737250422+01:00 - Actix runtime found; starting in Actix runtime
+2024-03-06T11:06:16.774623475+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-03-06T12:00:00+01:00
+2024-03-06T11:06:16.774790465+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-03-07T00:00:00+01:00
+2024-03-06T11:06:16.774859119+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-03-08T00:00:00+01:00
+2024-03-06T11:06:16.774926237+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-04-01T00:00:00+01:00
+2024-03-06T11:06:16.774990630+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-03-06T11:32:25.978272375+01:00 - SIGTERM received; starting graceful shutdown
+2024-03-06T11:32:25.978625353+01:00 - shutting down idle worker
+2024-03-06T11:32:25.979043562+01:00 - shutting down idle worker
+2024-03-06T11:32:25.979453251+01:00 - shutting down idle worker
+2024-03-06T11:32:25.979649366+01:00 - shutting down idle worker
+2024-03-06T11:32:25.981209131+01:00 - accept thread stopped
+2024-03-06T12:21:14.185445491+01:00 - booting up...............
+2024-03-06T12:21:29.330015809+01:00 - starting 4 workers
+2024-03-06T12:21:29.337810865+01:00 - Actix runtime found; starting in Actix runtime
+2024-03-06T12:21:29.589443099+01:00 - Added job to cron tab name= cron_line="0 0 * * * *" first_dt=2024-03-06T13:00:00+01:00
+2024-03-06T12:21:29.589646407+01:00 - Added job to cron tab name=daily cron job cron_line="0 0 0 * * * *" first_dt=2024-03-07T00:00:00+01:00
+2024-03-06T12:21:29.589717156+01:00 - Added job to cron tab name= cron_line="0 0 0 */7 * *" first_dt=2024-03-08T00:00:00+01:00
+2024-03-06T12:21:29.589784832+01:00 - Added job to cron tab name= cron_line="0 0 0 1 * *" first_dt=2024-04-01T00:00:00+01:00
+2024-03-06T12:21:29.589848528+01:00 - Added job to cron tab name= cron_line="0 0 0 1 */3 *" first_dt=2024-04-01T00:00:00+01:00
+2024-03-06T12:32:23.984220132+01:00 - 127.0.0.1 "POST /v1/auth/sign-up HTTP/1.1" 200 77 "-" "PostmanRuntime/7.36.0" 2.120475
+2024-03-06T12:34:16.476192757+01:00 - SIGTERM received; starting graceful shutdown
+2024-03-06T12:34:16.476539728+01:00 - shutting down idle worker
+2024-03-06T12:34:16.477361830+01:00 - shutting down idle worker
+2024-03-06T12:34:16.477571913+01:00 - shutting down idle worker
+2024-03-06T12:34:16.478023297+01:00 - shutting down idle worker
+2024-03-06T12:34:16.479794193+01:00 - accept thread stopped

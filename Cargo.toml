@@ -1,0 +1,66 @@
+[package]
+name = "rust-auth-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.171"
+dotenv = "0.15.0"
+futures = "0.3.28"
+chrono = { version = "0.4.26", features = ["serde"] }
+
+thiserror = "1.0.43"
+redis = { version = "0.24.0", features = ["tokio-comp","json"] }
+tokio = "1.29.1"
+serde_json = "1.0.103"
+bson = { version = "2.6.1", features = ["chrono-0_4"]}
+wasmium-random = "1.0.0"
+structural = "0.4.3"
+html-purifier = "0.2.0"
+rand = "0.8.5"
+threadpool = "1.8.1"
+zc = "0.4.0"
+once_cell = "1.18.0"
+lazy_static = "1.4.0"
+actix-cors = "0.7.0"
+actix-governor = "0.5.0"
+isahc = "1.7.2"
+regex = "1.9.1"
+tokio-cron = "0.1.2"
+scopeguard = "1.2.0"
+simple-mutex = "1.1.5"
+tink-aead = "0.2.5"
+tink-core = "0.2.5"
+hex = "0.4.3"
+reqwest = { version = "0.11.20", features = ["json","multipart"] }
+mime = "0.3.17"
+log = "0.4.20"
+futures-util = "0.3.28"
+actix-web = { version = "4.4.0", default-features = false, features = ["macros"] }
+log4rs = { version = "1.2.0", features = ["rolling_file_appender", "compound_policy", "size_trigger", "fixed_window_roller"]}
+validator = { version = "0.16.1", features = ["derive"] }
+sentry = "0.32.1"
+openssl = { version = "0.10.62", features = ["vendored"] }
+rust-argon2 = "2.0.0"
+jsonwebtoken = "9.2.0"
+web3 = "0.19.0"
+secp256k1 = { version = "0.28.1", features = ["rand"] }
+
+totp-rs = "5.4.0"
+base32 = "0.4.0"
+qrcode-generator = "4.1.9"
+magic-crypt = "3.1.13"
+html-minifier = "5.0.0"
+actix-multipart = "0.6.1"
+rusoto_s3 = "0.48.0"
+rusoto_core = "0.48.0"
+rusoto_credential = "0.48.0"
+fcm_rust = { path = "./src/fcm_rust" }
+
+
+[dependencies.mongodb]
+version = "2.6.0"
+default-features = false
+features = ["async-std-runtime"]

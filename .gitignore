@@ -1,0 +1,9 @@
+/target
+.env
+dump.rdb
+/src/temp
+/src/credentials/crypto-fcm.json
+
+Cargo.lock
+.env.example
+.env.live
